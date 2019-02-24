@@ -69,7 +69,7 @@
       "con-log": { "appenders": ["con-log"], "level":"warn" },
       "rpc-log": { "appenders": ["rpc-log"], "level":"warn" },
       "forward-log": { "appenders": ["forward-log"], "level":"warn" },
-      "rpc-debug": { "appenders": ["rpc-warn"], "level":"warn" },
+      "rpc-debug": { "appenders": ["rpc-debug"], "level":"warn" },
       "crash-log": { "appenders": ["crash-log"], "level":"warn" },
       "admin-log": { "appenders": ["admin-log"], "level":"warn" },
       "pomelo": { "appenders": ["pomelo"], "level":"warn" },

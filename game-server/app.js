@@ -6,7 +6,6 @@ var routeUtil = require('./app/util/routeUtil');
 var app = pomelo.createApp();
 app.set('name', 'chatofpomelo-websocket');
 
-console.log("1111111111");
 // app configuration
 app.configure('production|development', 'connector', function(){
 	app.set('connectorConfig',
@@ -14,7 +13,7 @@ app.configure('production|development', 'connector', function(){
 			connector : pomelo.connectors.hybridconnector,
 			heartbeat : 3,
 			useDict : true,
-			useProtobuf : true
+			//useProtobuf : true
 		});
 });
 
@@ -22,7 +21,7 @@ app.configure('production|development', 'gate', function(){
 	app.set('connectorConfig',
 		{
 			connector : pomelo.connectors.hybridconnector,
-			useProtobuf : true
+			//useProtobuf : true
 		});
 });
 

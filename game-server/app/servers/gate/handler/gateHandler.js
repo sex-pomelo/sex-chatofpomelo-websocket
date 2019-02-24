@@ -9,7 +9,6 @@ var Handler = function(app) {
 };
 
 var handler = Handler.prototype;
-console.log("1111111");
 /**
  * Gate handler that dispatch user to connectors.
  *
