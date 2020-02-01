@@ -1,9 +1,9 @@
 {
   "name": "chatofpomelo-websocket",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "crc": "0.2.0",
-    "@sex-pomelo/sex-pomelo": "#"
+    "@sex-pomelo/sex-pomelo": "2.2.15"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "development":{
+    "chat": [
+      {"id": 1, "time": "0/30 * * * * *", "action": "chatCron.test"}
+    ]
+  },
+  "production":{
+    "chat": [
+      {"id": 1, "time": "0 0/1 * * * *", "action": "chatCron.test"}
+    ]
+  }
+}
