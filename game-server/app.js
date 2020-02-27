@@ -36,7 +36,6 @@ app.configure('production|development', function() {
 
 	// filter configures
 	app.filter(pomelo.timeout());
-	console.log(  );
 });
 
 app.configure('production|development', 'chat', function() {
