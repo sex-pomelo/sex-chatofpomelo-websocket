@@ -44,6 +44,7 @@ app.configure('production|development', 'chat', function() {
 
 // app configure
 app.configure('production|development', function() {
+	app.enable('systemMonitor');
 	app.set('connectorConfig',
 	{
 		connector : pomelo.connectors.hybridconnector,
