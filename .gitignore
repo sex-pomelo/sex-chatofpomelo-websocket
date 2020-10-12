@@ -12,3 +12,4 @@ web-server/node_modules/*
 *.swp
 *.sublime-project
 *.sublime-workspace
+package-lock.json

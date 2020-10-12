@@ -72,7 +72,7 @@
       "rpc-debug": { "appenders": ["rpc-debug"], "level":"warn" },
       "crash-log": { "appenders": ["crash-log"], "level":"warn" },
       "admin-log": { "appenders": ["admin-log"], "level":"warn" },
-      "pomelo": { "appenders": ["pomelo"], "level":"warn" },
+      "pomelo": { "appenders": ["console","pomelo"], "level":"warn" },
       "pomelo-rpc": { "appenders": ["pomelo-rpc"], "level":"warn" },
       "default": { "appenders": ["comm-log"], "level":"warn" }
   },
