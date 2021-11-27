@@ -5,6 +5,12 @@ const GameHandler = require('@sex-pomelo/sex-pomelo/base').GameHandler;
 class GateHandler extends GameHandler{
 	constructor(app){
 		super(app);
+
+		// test i18n
+		let msgT = this.app.tr("Hello","It falls on field and tree");
+		let msgT1 = this.app.tr1("zh-CN","Hello","千军万马来相见！","-无");
+		console.log('--tr test:',msgT);
+		console.log('--tr test:',msgT1);
 	}
 
 	/**

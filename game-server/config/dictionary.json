@@ -1,1 +1,18 @@
-{}
+{
+    "route":{
+        "chat":[
+            "ChatHandler.send"
+        ],
+        "connector" :[
+            "entryHandler.enter"
+        ],
+        "gate" :[
+            "gateHandler.queryEntry"
+        ]
+    },
+    "notify": [
+        "onChat",
+        "onAdd",
+        "onLeave"
+    ]
+}

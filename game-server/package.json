@@ -4,6 +4,7 @@
   "private": false,
   "dependencies": {
     "crc": "0.2.0",
-    "@sex-pomelo/sex-pomelo": "2.2.26"
+    "@sex-pomelo/sex-pomelo": "^2.3.0",
+    "@sex-pomelo/sex-pomelo-logger": "^0.1.14"
   }
 }

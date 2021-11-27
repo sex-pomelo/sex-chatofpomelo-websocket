@@ -13,26 +13,23 @@ module.exports = appInfo => {
       //useDict: false,
       disconnectOnTimeout: true
     },
-    // plugins: [
-    //   {
-    //     package: '@sex-pomelo/pomelo-i18n',
-    //     name: 'i18n',
-    //     serverType: '!master',
-    //     cfg: {
-    //       i18n:{
-    //         path: 'app/locale',
-    //         locale: ['en-US','zh-CN'],
-    //         default: 'en-US'
-    //       }
-    //     }
-    //   }
-    // ],
+    plugins: [],
     // configs: [
     //   {name: 'mssqlcfg', cfg:'mssql.json', serverType: '!master'},
     //   {name: 'rediscfg', cfg:'redis.json', serverType: '!master'},
     // ],
-    // components: [
-    // ],
+    components: [
+      {
+        name: '__i18n__',
+        serverType: 'gate',
+        cfg: { 
+            path: 'app/locale',
+            locale: ["en-US","zh-CN"],
+            default: "en-US",
+            localeFiledName: 'lang'
+        }
+      },
+    ],
     filters:[
       {
         package: 'app/servers/chat/filter/abuseFilter',
